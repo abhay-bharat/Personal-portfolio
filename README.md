@@ -1,2 +1,2 @@
 # Personal-portfolio
-this is my personal portfolio website
+This is responsive personal portfolio website created using HTML, CSS and Javascript
