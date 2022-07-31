@@ -136,3 +136,16 @@
 #form-check input{
     width: 15px;
 }
+
+.blogs h1{
+    margin: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.blogItem{
+    margin: 16px;
+}
+
+.blogItem h2{
+    padding-bottom: 12px;
+}
