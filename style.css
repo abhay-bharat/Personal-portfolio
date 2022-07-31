@@ -7,8 +7,8 @@
  }
 
 .sidebar{
-    background-color: rgb(158, 155, 155);
-    width: 10vw;
+    background-color: rgb(178, 176, 176);
+    width: 234px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -22,6 +22,11 @@
     list-style: none;
     padding: 30px 0;
     font-size: 21px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 .main{
@@ -65,24 +70,69 @@
 }
 
 .moreAbout{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 19px 0px;
 }
 
 .buttons{
-    margin-top: 25px;
+    margin: 25px -8px
 }
 
-.buttons button{
+.btn{
     border-radius: 15px;
     font-size: 14px;
     color: white;
-    background-color: steelblue;
+    background-color: dodgerblue;
     font-weight: bold;
     margin: 0 7px;
     padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
 }
 
 .devPic img{
     height: 50vh;
+}
+
+.contactForm{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0 40px;
+    padding-top: 144px;
+}
+
+.contactForm h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: red;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 15px;
 }
