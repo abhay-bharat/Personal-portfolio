@@ -149,3 +149,48 @@
 .blogItem h2{
     padding-bottom: 12px;
 }
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    margin: 12px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1000px;
+    padding-left: 12px;
+}
+
+.skill{
+    width: 168px;
+    height: 8px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.t100{
+    width: 200px;
+    background-color: darkblue;
+}
+
+.t75{
+    width: 150px;
+    background-color: rgb(52, 52, 246);
+}
+
+.t50{
+    width: 100px;
+    background-color: rgb(108, 108, 255);
+}
+
+.t25{
+    width: 50px;
+    background-color: aqua;
+}
