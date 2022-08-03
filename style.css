@@ -10,6 +10,7 @@
     background-color: rgb(178, 176, 176);
     width: 234px;
     font-family: 'PT Sans', sans-serif;
+    transition: transform 0.3s ease-in;
 }
 
 /* apply style to the nav bar under the sidebar class */
@@ -97,6 +98,14 @@
 
 .devPic img{
     height: 50vh;
+}
+
+.Intro{
+    margin-top: 80px;
+}
+
+.blogs{
+    margin-top: 30px;
 }
 
 .contactForm{
@@ -193,4 +202,26 @@ p{
 .t25{
     width: 50px;
     background-color: aqua;
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 3px;
+    top: 3px;
+}
+
+.ham{
+    margin-top: 8px;
+    margin-left: 7px;
+}
+.cross{
+    margin-left: 187px;
+    margin-top: 8px;
+}
+
+.sidebarGo{
+    transform: translate(-234px, 0px);
+    position: absolute;
 }
